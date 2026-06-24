@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+
+.side-menu2 ul ul a:hover{
+ background-color: yellow;
+
+
+}
+
+
+
+.side-menu ul11 a:hover{
+ background-color: yellow;
+
+
+}
+
+.side-menu1{
+display:none;
+}
+
+
+.side-menu ul li:hover > .side-menu1{
+display:block;
+}
+
+
+
+
+
